@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+}
+div {
+  width: 50%;
+  color: white;
+  float: left;
+  background-color: blue;
+  text-align: center;
+}
+
+div h1 {
+  margin-top: 25vh;
+  text-align: left;
+}
+
+div p {
+  text-align: left;
+  margin: 20px;
+}
+
+.obraz {
+  text-align: center;
+  margin-top: 25vh;
+}
+
+footer {
+  position: absolute;
+  display: inline;
+  background-color: red;
+  left: 0;
+  bottom: 10vh;
+}
+
+ul {
+  display: inline-block;
+  background-color: lightblue;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+button {
+  margin: 20px;
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 10%;
+}
